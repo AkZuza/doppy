@@ -1,2 +1,14 @@
 /vscode
 /build
+
+# cmake files
+**/CMakeFiles
+**/**.dir
+**.cmake
+CMakeCache.txt
+
+# Visual Studio
+**vcxproj**
+**sln
+/x64
+/.vs
