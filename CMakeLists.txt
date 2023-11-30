@@ -12,5 +12,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build/bin/${CMAKE_SYSTEM
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build/archive/${CMAKE_SYSTEM}-${CMAKE_SYSTEM_PROCESSOR}-${CMAKE_BUILD_TYPE}/${CMAKE_PROJECT_NAME}")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build/lib/${CMAKE_SYSTEM}-${CMAKE_SYSTEM_PROCESSOR}-${CMAKE_BUILD_TYPE}/${CMAKE_PROJECT_NAME}")
 
+# add doppy library
+add_subdirectory(doppy)
+
 # examples
 add_subdirectory(examples/hello_world) # to test if this project structure works
