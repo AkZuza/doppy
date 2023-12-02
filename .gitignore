@@ -12,3 +12,6 @@ CMakeCache.txt
 **sln
 /x64
 /.vs
+
+# glad sources created in the project
+**/gladsources/**
